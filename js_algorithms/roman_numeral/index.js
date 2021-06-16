@@ -13,5 +13,3 @@ function convertToRoman(num) {
 
   return result.join("");
 }
-
-convertToRoman(4);

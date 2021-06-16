@@ -15,7 +15,7 @@ function telephoneCheck(str) {
     return false;
   }
 
-  const numberFormat = str.replace(/[0-9]/g, "5"); //?
+  const numberFormat = str.replace(/[0-9]/g, "5");
 
   if (hasCountryCode) {
     return (
@@ -30,5 +30,3 @@ function telephoneCheck(str) {
     return verificationTemplates.includes(numberFormat);
   }
 }
-
-telephoneCheck("1 555)555-5555"); //?
